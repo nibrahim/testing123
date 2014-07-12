@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int
-main()
+main(int argc, char *argv[])
 {
-  printf("Hello, world.\n");
+  printf("%s\n", argv[1]);
   return 0;
 }
 
